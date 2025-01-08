@@ -8,10 +8,10 @@ name: Publish-TvBox-Url-Live-2022
 
 # Controls when the action will run. 
 on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 */2 * * *'
+  # push:
+    # branches: [ main ]
+  #schedule:
+    #- cron: '0 */2 * * *'
   workflow_dispatch:
 
 env:
