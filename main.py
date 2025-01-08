@@ -21,7 +21,7 @@ import requests
 import sys
 
 print('workdir:' + os.getcwd())
-os.chdir('/ql/data/scripts/vpei_tvurl/')
+# os.chdir('/ql/data/scripts/vpei_tvurl/')
 print('workdir:' + os.getcwd())
 
 from cls import IsValid
